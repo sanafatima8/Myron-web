@@ -1,0 +1,134 @@
+
+{
+    "about": [
+      {
+        "title": "Flutter/Dart",
+        "progress": 88,
+        "level": "Advance",
+        "src": "./img/flutter.svg"
+      },
+      {
+        "title": "Firebase",
+        "progress": 90,
+        "level": "Advance",
+        "src": "./img/firebase.svg"
+      },
+      {
+        "title": "Supabase",
+        "progress": 89,
+        "level": "Advance",
+        "src": "./img/supabase.svg"
+      },
+      {
+        "title": "Appwrite",
+        "progress": 87,
+        "level": "Advance",
+        "src": "./img/appwrite.svg"
+      },
+      {
+        "title": "Dart Frog",
+        "progress": 88,
+        "level": "Advance",
+        "src": "./img/dart.svg"
+      },
+      {
+        "title": "Serverpod",
+        "progress": 83,
+        "level": "Advance",
+        "src": "./img/pod.svg"
+      },
+      {
+        "title": "GCP",
+        "progress": 85,
+        "level": "Advance",
+        "src": "./img/gcp.svg"
+      },
+      {
+        "title": "AWS",
+        "progress": 77,
+        "level": "Advance",
+        "src": "./img/aws.svg"
+      },
+      {
+        "title": "Python",
+        "progress": 86,
+        "level": "Advance",
+        "src": "./img/python.svg"
+      },
+      {
+        "title": "Swift",
+        "progress": 84,
+        "level": "Advance",
+        "src": "./img/swift.svg"
+      },
+      {
+        "title": "FlutterFlow",
+        "progress": 91,
+        "level": "Advance",
+        "src": "./img/ff.svg"
+      },
+      {
+        "title": "Javascript",
+        "progress": 75,
+        "level": "Advance",
+        "src": "./img/js.svg"
+      },
+      {
+        "title": "HTML/CSS",
+        "progress": 83,
+        "level": "Advance",
+        "src": "./img/html5.svg"
+      },
+       {
+        "title": "React",
+        "progress": 74,
+        "level": "Advance",
+        "src": "./img/react.svg"
+      },
+      {
+        "title": "Shopify",
+        "progress": 91,
+        "level": "Advance",
+        "src": "./img/shopify.svg"
+      },
+      {
+        "title": "Linux",
+        "progress": 75,
+        "level": "Advance",
+        "src": "./img/linux.svg"
+      },
+      {
+        "title": "Kali Linux",
+        "progress": 73,
+        "level": "Advance",
+        "src": "./img/kali-linux.svg"
+      },
+      {
+        "title": "Ghidra Revese Engineering",
+        "progress": 72,
+        "level": "Advance",
+        "src": "./img/gidra.svg"
+      },
+      {
+        "title": "Figma",
+        "progress": 90,
+        "level": "Advance",
+        "src": "./img/figma.svg"
+      },
+      {
+        "title": "Sketch",
+        "progress": 90,
+        "level": "Advance",
+        "src": "./img/sketch.svg"
+      },
+      {
+        "title": "Adobe Illustartor",
+        "progress": 90,
+        "level": "Advance",
+        "src": "./img/ai.svg"
+      }
+     
+     
+    ]
+  }
+  

@@ -1,0 +1,275 @@
+.about--section {
+    text-align: center;
+    background:#333333;
+    padding: 20px;
+    align-items: center; /* Center horizontally */
+    gap: 16.667px;
+    padding: 149.33px 85.33px;
+    display: flex;
+  }
+  
+  .portfolio-about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about-title{
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 53.23px;
+    margin-bottom: 10px; 
+    text-align: center!important;
+    position: relative;
+    overflow: hidden; /* Hide overflowing content */
+    
+    }
+    .about-text {
+        background-image: linear-gradient(265deg, rgba(183, 151, 102, 1) 12%, rgba(141, 97, 29, 1) 63%);
+        max-width: max-content;
+        padding: 3px 10px;
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 55px;
+        text-align: center !important;
+        display: inline-block; /* Make it an inline block to use text-align */
+        white-space: nowrap; /* Prevent line breaks */
+        animation: slideInFromLeft 2s ease-in-out forwards; /* Animation properties */
+        opacity: 0; /* Initially set opacity to 0 */
+        }
+        
+        @keyframes slideInFromLeft {
+        0% {
+          transform: translateX(-100%); /* Start position outside the left edge */
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(0); /* End position at the original position */
+          opacity: 1;
+        }
+        }
+        
+        
+        
+        .about--section--para {
+        color: #EEEEEEB2;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+       
+       
+       text-align: center;
+        }
+    
+  
+  .developer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  margin-top: 100px;
+  }
+  .frontend-container {
+    width: 100%; /* Set the width to 50% for the frontend container */
+  }
+  
+  .developer-heading {
+    text-align: left;
+    width: 100%;
+    margin-top: 40px;
+    line-height: 32px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+  }
+
+  
+  .developer-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .box {
+    width: 49%; /* Adjust as needed, you may need to reduce the width slightly to account for any spacing */
+    margin-bottom: 15px;
+    background-color:  #474641;    
+    border-radius: 1rem;
+    text-align: left;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+ 
+   
+  }
+
+  .box-heading{
+    color:  #FFFFFF;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 10px;
+
+  }
+
+
+  .progress-container {
+    position: relative;
+  }
+  
+  
+  
+
+  .pro-f {
+    appearance: none;
+    height: 7px;
+    width: 90%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 30px;
+    left: 0;
+    top: 6px; /* Adjust the top position as needed */
+    transform: translate(0, -50%);
+    animation: progressBarAnimation 2s ease-in-out forwards;
+  
+  }
+  
+  
+  
+  
+  
+  @keyframes progressBarAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%;
+    }
+  }
+  
+  
+  
+  
+  .pro-f::-webkit-progress-bar {
+  background-color: #ccc;
+    border-radius: 10px; /* Match the border radius of the progress bar */
+  
+  }
+  
+  .pro-f::-webkit-progress-value {
+    background: linear-gradient(265deg, rgba(244, 210, 145, 1) 0%, rgba(160, 118, 50, 1) 53%);
+    border-radius: 10px; /* Match the border radius of the progress bar */
+   
+  }
+  
+  
+ 
+  
+  .progress-text {
+    position: absolute;
+    font-size: 13.5px;
+    margin-top: 8px;
+    left: 85%;
+    font-weight: 300;
+    transform: translate(-50%, -50%);
+    color: white; /* Change the color of the progress value */
+  }
+
+  .circle-container {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 50px;
+    margin-left: 30px;
+   
+  
+  
+  }
+  .circle-image {
+    width: 100%; /* Adjust the width to fit within the circle container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%; /* Make the image round */
+    margin-top: 20px;
+    margin-right: 10px; /* Adjust the margin to space the text from the image */
+    object-fit: contain; /* Maintain aspect ratio and fit within the container */
+  }
+  .text-after-circle {
+    margin-left: 10px; /* Adjust the margin to space the text from the circle */
+    font-size: 15px; /* Adjust the font size of the text */
+    margin-top: 20px;
+    color: white;
+  
+  }
+  .a-one{
+    margin-left: 10px; /* Adjust the margin to space the text from the circle */
+    font-size: 13px; /* Adjust the font size of the text */
+    margin-top: 20px;
+    background: linear-gradient(265deg, rgba(244, 210, 145, 1) 0%, rgba(160, 118, 50, 1) 53%);
+    max-width: max-content;
+    padding: 3px 10px;
+    color: white;
+    text-align: center !important;
+    display: inline-block; /* Make it an inline block to use text-align */
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* Media query for smaller screens (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+    .box {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  /* Rest of your existing styles */
+  @media (max-width: 414px) {
+    .box {
+      width: 100%!important; /* Full width on smaller screens */
+    }
+    
+  .pro-f {
+    
+    height: 7px;
+    width: 60%!important;
+
+  
+  }
+  .circle-container {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 60px;
+    margin-left: 30px;
+   
+  
+  
+  }
+  
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .about-title,
+    .about-text {
+      font-size: 30px;
+      line-height: 36px;
+    }
+  
+    .about--section--para {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+  }

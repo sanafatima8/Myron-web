@@ -1,0 +1,653 @@
+/* client Section Style */
+/* .client--section {
+    background: #2b2622;
+    display: flex;
+    padding: 149.33px 85.33px;
+    flex-direction: column;
+    align-items: center; 
+    gap: 106.667px;
+  }
+  .portfolio-client-container {
+      text-align: center;
+  }
+  
+  
+  
+  .client-title{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 77px;
+    margin-bottom: 10px; 
+    text-align: center!important;
+    position: relative;
+    overflow: hidden; 
+  
+  
+  }
+  
+  .client-text {
+    background: linear-gradient(265deg, rgba(244, 210, 145, 1) 0%, rgba(160, 118, 50, 1) 53%);
+    max-width: max-content;
+    padding: 3px 10px;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 77px;
+    text-align: center !important;
+    display: inline-block; 
+    white-space: nowrap; 
+    animation: slideInFromLeft 2s ease-in-out forwards;
+    opacity: 0; 
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%); 
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0); 
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  .client--section--para {
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center!important;
+  
+  }
+  
+ 
+  
+  
+  .client-upper-p {
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+  
+  }
+  
+  
+  
+  
+  .client--section--container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+  }
+  .client--section--card {
+    flex: 0 0 auto;
+    margin: 0 10px;
+    padding: 35px;
+    width: 20%;
+    background: #474641;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-bottom 0.3s ease, flex 0.3s ease;
+    transform: scale(0.9); 
+  
+}
+  
+  .client--section--card.active {
+    flex: 1;
+
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  } */
+
+
+
+   
+  /* MySkills.css */
+/* 
+.client--section--card.active  .client--section--img  {
+   margin-left: 55px;
+  }
+
+ 
+  .client--section--img {
+    display: flex;
+    justify-content: center!important;
+    align-items: center;
+    margin-left: 47.9px;
+    width: 60%;
+    height: 200px;
+    padding: 13.3px;
+    border-radius: 10.6px;
+    overflow: hidden; 
+    position: relative; 
+    background: #2b2622;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .client--section--img img {
+   width: 100%;
+   height: 130%; 
+   justify-content: center!important;
+   object-fit: cover; 
+    border-radius: 10.6px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+  }
+  
+  .client--section--card--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    
+  }
+  
+  .elementor-carousel {
+    display: flex;
+    gap: 20px;
+  transition: transform 0.5s ease;
+ 
+  }
+  .client-title {
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 45px;
+    align-items: center;
+  }
+  
+  .client-position {
+    color: #a3a19d;
+    font-size: 20.9px;
+    font-weight: 500;
+    line-height: 1px; 
+    margin-top: 5px; 
+    align-items: center;
+  }
+  
+  .client-company{
+    color: #a3a19d;
+     font-size: 20.9px;
+    font-weight: 500;
+    line-height: 1px;
+    align-items: center;
+  }
+  
+  
+  
+  .client-description {
+    color: gray;
+    font-size: 17.3px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 350px; 
+    margin: 0 auto; 
+  }
+  
+  
+  
+  
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+  }
+  
+  .dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color:goldenrod; 
+  }
+  
+   */
+  
+  /* @media (max-width: 767px) {
+    body {
+      overflow-x: hidden;
+    }
+  
+    .elementor-carousel {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      gap: 0px!important;
+    }
+  
+    .client--section--card {
+      flex-shrink: 0;
+      width: 150%;
+      margin: 0 5px;
+    }
+  
+    .client-title {
+      color: white;
+      font-size: 40px;
+      width: 100%;
+      font-weight: 700;
+      line-height: 66px;
+      margin-left: 0; 
+      margin-right: 0; 
+    }
+  
+    .client-text {
+      font-size: 40px;
+      line-height: 70px;
+    }
+  
+    .client--section--para {
+      font-size: 16px;
+      line-height: 24px; 
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .client--section--container {
+      width: 100%;
+    
+    }
+    .client--section--card {
+      flex: 0 0 auto;
+      margin: 0 10px;
+      padding: 35px;
+      width: 70%;
+      background: #474641;
+      box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    
+  }
+  .client--section--card.active {
+    transform: none; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+  }
+
+  }
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+ .client--section {
+  padding: 80px 0;
+  background-color: #333333;  
+  align-items: center;
+}
+
+  .portfolio-client-container {
+    text-align: center;
+  }
+  
+  .client-upper-p {
+
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    background-clip: text; /* Clip the background to the text */
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent; /* Set text color to transparent */
+    background-image: linear-gradient(265deg, rgba(183, 151, 102, 1) 12%, rgba(141, 97, 29, 1) 63%);
+    -webkit-text-fill-color: transparent; /* For Safari */
+    text-align: center;
+  }
+  
+
+   
+  .client-subhead {
+   
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF!important;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 53.23px;
+    margin-bottom: 10px; 
+    text-align: center;
+   
+  
+  }
+  
+  .client-text {
+    background-image: linear-gradient(265deg, rgba(183, 151, 102, 1) 12%, rgba(141, 97, 29, 1) 63%);
+    max-width: max-content;
+    padding: 3px 10px;
+    color: white;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 53.23px;
+    text-align: center !important;
+    display: inline-block; 
+    white-space: nowrap; 
+    animation: slideInFromLeft 2s ease-in-out forwards;
+    opacity: 0; 
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%); 
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0); 
+      opacity: 1;
+    }
+  }
+  
+  
+  .client--section--para {
+    color: #EEEEEEB2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    align-items: center;
+
+    text-align: center!important;
+  
+  }
+  
+  
+  .client--section--container {
+    margin-top: 50px;
+    overflow: hidden; 
+    
+  }
+  .carousel-wrapper {
+    overflow: hidden;
+  }
+  .elementor-carousel {
+    display: flex;
+    overflow-x: auto; /* Add overflow-x: auto to allow horizontal scrolling */
+    scroll-snap-type: x mandatory;
+    flex-shrink: 0; /* Ensure the carousel doesn't shrink and cause overflow */
+
+  }
+  
+  
+  .client--section--card {
+    margin-top: 100px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+    flex: 0 0 auto; /* Ensure cards don't shrink and maintain their size */
+    scroll-snap-align: center;
+    height: 800px; 
+    width: 700px!important;
+    
+  }
+  
+  .client-title,
+  .client-position,
+  .client-company,
+  .client-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .client-title {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+  }
+  
+  .client-position,
+  .client-company {
+    color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.52px;
+    margin-top: 5px;
+  }
+  
+  .client-description {
+    color: #EEEEEE;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 20px!important;
+    font-weight: 400;
+    line-height: 28px;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+    margin: 0 auto; /* Center the description horizontally */
+  }
+  
+
+  /* .client--section--card:hover {
+    opacity: 1;
+  }
+  
+  */
+  .client--section--img {
+    margin: 0 auto; /* Center the image horizontally */
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+   
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .client--section--img img {
+    width: 100%;
+    height: 100%; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 10.6px;
+    display: block; /* Remove any default inline styles */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  .client--section--card--content {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content */
+    height: 100vh;
+  width: 80%;
+    background-color: #2C2B2B;
+   
+  }
+  
+ 
+
+/* Add these styles to your existing CSS */
+
+.dots-container {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
+
+
+.dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #2b2622; /* Set the default color */
+  display: inline-block;
+  margin: 0 5px;
+ border-color: aqua;
+ border: 3px solid goldenrod;
+
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+
+.dot.active {
+  background: linear-gradient(265deg, rgba(183,151,102,1) 12%, rgba(141,97,29,1) 63%);
+}
+
+
+  /* .dots-container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: red;
+  }
+  
+  .dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: goldenrod!important;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: goldenrod !important;
+  } */
+  
+  /* Additional styles for center mode */
+  .slick-center .client--section--card {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* for responsive class */
+
+  
+  
+  /* Other styles remain unchanged */
+  
+  /* For tablets and smaller screens */
+
+  /* @media only screen and (max-width: 1024px) {
+    .client-title {
+      font-size: 40px;
+    }
+  
+    .client-text {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  
+    .client--section--para {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .client--section--container {
+      margin-top: 30px;
+    }
+  
+    .client-description {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  } */
+  
+  /* For phones and smaller screens */
+  @media only screen and (max-width: 600px) {
+
+    .client-subhead {
+   
+      font-size: 30px;
+      line-height: 36px;
+     
+    
+    }
+
+    .client-title {
+      font-size: 26px;
+      margin-left: -90px!important;
+     
+    }
+    .client-position,
+    .client-company {
+      color: #EEEEEE;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18.52px;
+      margin-top: 5px;
+      margin-left: -90px!important;
+    }
+    .client-description {
+      color: #EEEEEE;
+      font-size: 16px;
+     width: 80%;
+      font-style: normal;
+      margin-top: 20px!important;
+      font-weight: 400;
+      line-height: 30px;
+      margin-left: 0.05px;
+      align-items: center;
+      text-align: center; /* Center text horizontally */
+    }
+    
+    .client-text {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  
+    .client--section--para {
+      font-size: 12px;
+      line-height: 24px;
+    }
+  
+    .client--section--container {
+      margin-top: 20px;
+    }
+  
+    .client-description {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    
+    .client--section--img {
+      width: 45%!important; /* Set the width to 100% for mobile screens */
+      margin-left: 100px!important;
+      max-width: none; /* Remove the max-width for mobile screens */
+      height: 240px!important; /* Automatically adjust the height to maintain aspect ratio */
+    }
+    .dots-container {
+      margin-top: 50px; /* Adjust the margin-top for mobile screens */
+    }
+  }
+  

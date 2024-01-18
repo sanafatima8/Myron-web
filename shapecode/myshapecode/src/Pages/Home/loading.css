@@ -1,0 +1,53 @@
+.loading-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black; /* Adjust as needed */
+    z-index: 1000; /* Ensure it's above other elements */
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .loading-page.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .loading-page.visible {
+    opacity: 1;
+  }
+  
+  .main-content {
+    display: none; /* Initially hide main content */
+  }
+  
+  .loading-page.hidden + .main-content {
+    display: block; /* Show main content when loading is complete */
+  }
+  
+  @keyframes logoAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .loading-logo {
+    opacity: 0;
+    animation: logoAnimation 1s ease-in-out forwards; /* Added 'forwards' to keep the final state */
+  }
+  
+  /* Add the 'visible' class to trigger the animation */
+  .loading-logo.visible {
+    opacity: 1;
+  }
+

@@ -1,0 +1,65 @@
+{
+    "Product":
+    [
+      { "id": 1, "name": "Polo", "category": "All", "src": "./img/green tshirt.png","description": "See more about this item", "price": 20.99 },
+
+      { "id":2, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png", "description": "See more about this item", "price": 25.99 },
+      { "id": 3, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 4, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 5, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 6, "name": "Polo", "category": "T-Shirts","src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 7, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 8, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 9, "name": "Polo", "category": "T-Shirts","src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+
+      { "id": 11, "name": "Sweaters", "category": "Sweaters", "src": "./img/sweaters.png","description": "See more about this item", "price": 25.99 },
+      { "id": 12, "name": "Sweaters", "category": "Sweaters", "src": "./img/sweaters.png","description": "See more about this item", "price": 25.99 },
+      { "id": 13, "name": "Sweaters", "category": "Sweaters", "src": "./img/sweaters.png","description": "See more about this item", "price": 25.99 },
+      { "id": 14, "name": "Sweaters", "category": "Sweaters", "src": "./img/sweaters.png","description": "See more about this item", "price": 25.99 },
+
+      { "id": 15, "name": "SweatsPants", "category": "SweatsPants", "src": "./img/sweatspants.png","description": "See more about this item", "price": 25.99 },
+      { "id": 16, "name": "SweatsPants", "category": "SweatsPants","src": "./img/sweatspants.png","description": "See more about this item", "price": 25.99 },
+      { "id": 17, "name": "SweatsPants", "category": "SweatsPants", "src": "./img/sweatspants.png","description": "See more about this item", "price": 25.99 },
+    
+      { "id": 18, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+      { "id": 19, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+      { "id": 20, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+      { "id": 21, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+    
+    
+      { "id":22, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png", "description": "See more about this item", "price": 25.99 },
+      { "id": 23, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 24, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 25, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 26, "name": "Polo", "category": "T-Shirts","src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 27, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 28, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+      { "id": 29, "name": "Polo", "category": "T-Shirts","src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+
+      { "id": 30, "name": "Sweaters", "category": "Sweaters", "src": "./img/sweaters.png","description": "See more about this item", "price": 25.99 },
+      { "id": 31, "name": "Sweaters", "category": "Sweaters", "src": "./img/sweaters.png","description": "See more about this item", "price": 25.99 },
+      { "id": 32, "name": "Sweaters", "category": "Sweaters", "src": "./img/sweaters.png","description": "See more about this item", "price": 25.99 },
+      { "id": 33, "name": "Sweaters", "category": "Sweaters", "src": "./img/sweaters.png","description": "See more about this item", "price": 25.99 },
+
+      { "id": 34, "name": "SweatsPants", "category": "SweatsPants", "src": "./img/sweatspants.png","description": "See more about this item", "price": 25.99 },
+      { "id": 35, "name": "SweatsPants", "category": "SweatsPants","src": "./img/sweatspants.png","description": "See more about this item", "price": 25.99 },
+      { "id": 36, "name": "SweatsPants", "category": "SweatsPants", "src": "./img/sweatspants.png","description": "See more about this item", "price": 25.99 },
+    
+      { "id": 37, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+      { "id": 38, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+      { "id": 39, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+      { "id": 40, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+      { "id": 41, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+      { "id": 42, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+      { "id": 43, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 },
+      { "id": 44, "name": "Accessories", "category": "Accessories", "src": "./img/accessories.png","description": "See more about this item", "price": 25.99 }
+
+    ]
+    
+  
+
+  
+  
+  
+  }
+  

@@ -1,0 +1,342 @@
+
+
+
+/* core values  */
+
+.core--section {
+    background:#201F1F;
+    display: flex;
+    padding: 149.33px 85.33px;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    gap: 106.667px;
+  }
+  .portfolio-core-container {
+      text-align: center;
+  }
+  
+  .core-maintitle{
+    color: white;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 53px;
+    margin-bottom: 10px; 
+    text-align: center!important;
+    position: relative;
+    overflow: hidden; /* Hide overflowing content */
+    font-family: 'Nunito', sans-serif;
+
+  
+  
+  }
+  
+  .core-text {
+    background-image: linear-gradient(265deg, rgba(183, 151, 102, 1) 12%, rgba(141, 97, 29, 1) 63%);
+    max-width: max-content;
+    padding: 3px 10px;
+    color: white;
+   
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center !important;
+    display: inline-block; /* Make it an inline block to use text-align */
+    white-space: nowrap; /* Prevent line breaks */
+    animation: slideInFromLeft 2s ease-in-out forwards; /* Animation properties */
+    opacity: 0; /* Initially set opacity to 0 */
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%); /* Start position outside the left edge */
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0); /* End position at the original position */
+      opacity: 1;
+    }
+  }
+  
+  
+  
+
+   .core--section--container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+    gap: 42.6px;
+    grid-template-columns: repeat(3, 1fr); /* Update to three columns */
+    grid-template-rows: repeat(2, 1fr);    /* Add three rows */
+    grid-auto-rows: auto;
+    height: auto;
+  }
+  
+  .core--section--card {
+    border-radius: 1rem;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    background: #474641;
+    height: auto; /* Set height to auto for responsiveness */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+ 
+  .core--section--img {
+    display: flex;
+    padding: 13.3px;
+    justify-content: center;
+    align-items: center;
+    gap: 13.3px;
+   
+   
+   
+  }
+  
+  .core--section--card--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+  }
+  
+  .core-title {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    align-items: center;
+  }
+  
+  .core-description {
+    color:#FFFFFF99;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+   
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+  
+  /* Responsive CSS for Mobile Screens */
+
+  @media only screen and (max-width: 600px) {
+    .core-maintitle,
+    .core-text {
+      font-size: 30px;
+      line-height: 36px;
+    }
+  
+    .serve--ambition-description {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .core--section--container {
+      grid-template-columns: 1fr; /* Update to a single column for small screens */
+    }
+  }
+ 
+
+
+/* @media screen and (max-width: 600px) {
+    .core-maintitle{
+     
+      font-size: 27px!important;
+      line-height: 55px;
+    margin-top: 10px;
+     
+    }
+    .portfolio-core-container{                                                                           
+     width: 300px;
+     
+    
+     
+    }
+    
+    .core-text {                                                                           
+      font-size: 22px!important;
+      font-weight: 700;
+      line-height: 40px!important;
+     
+    }
+  
+  
+  
+  
+    .core--section--card {
+    
+      margin-left: -20px!important;
+     
+    }
+    .core-title{
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 60px;
+      margin-left: -20px!important;
+      height:50px!important;
+      padding-top: 5px;
+      
+     
+    }
+  
+  
+  }
+   */
+   
+   
+/*    
+   @media (max-width: 768px) {
+  
+    .core-title{
+      color: white;
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 77px;
+      margin-bottom: 10px; 
+      text-align: center!important;
+      position: relative;
+      overflow: hidden; 
+      width: 120%;
+      margin-left: -50px;
+    
+    }
+  
+  }
+  
+  @media screen and (min-width: 390px) and (max-width: 844px) { 
+    .core-title{
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 60px;
+      margin-left: -20px!important;
+      height:max-content;
+     
+    }
+    
+    .core-text {                                                                           
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 60px;
+      margin-left: -20px;
+    }
+    .core--section--card {
+       width: 120%;
+      height: 450px;
+      margin-left: -50px;
+    }
+  
+  }
+  
+  
+  
+  @media screen and (min-width: 360px) and (max-width: 800px) {
+    .core-title{
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 60px;
+      margin-left: -20px!important;
+      height: max-content;
+      margin-top: 10px;
+     
+     
+     
+    }
+    
+    .core-text {                                                                           
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 60px;
+      margin-left: -30px;
+    }
+    .core--section--card {
+      width: 120%;
+     height: 450px;
+     margin-left: -50px;
+   }
+  
+  
+  }
+  @media screen and (min-width: 414px) and (max-width: 896px) {
+    .core-title{
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 60px;
+      margin-left: -20px!important;
+     
+    }
+    
+    .core-text {                                                                           
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 60px;
+      margin-left: -30px;
+    }
+    .core--section--card {
+       width: 120%;
+      height: 450px;
+      margin-left: -50px;
+    }
+  
+  
+  
+  }
+
+
+
+
+  @media (max-width: 768px) {
+    .core--section--container {
+      grid-template-columns: 1fr; 
+      grid-template-rows: repeat(auto, 1fr); 
+    }
+    .core-title {
+      color: white;
+       font-size: 35px;
+      font-weight: 900;
+      line-height: 30px;
+      align-items: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .core--section--card {
+      height: auto; 
+       border-radius: 2rem;
+    }
+  
+    .core--section--img {
+      width: 150px; 
+      height: 150px; 
+    }
+  
+    .core-title {
+      font-size: 28px; 
+    }
+  
+    .core-description {
+      font-size: 14px; 
+    }
+  }
+   */
+  
+  /* ................................. */
+  

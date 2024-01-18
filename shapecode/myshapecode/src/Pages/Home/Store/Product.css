@@ -1,0 +1,89 @@
+.product-grid {
+    display: grid;
+    
+  
+    grid-template-columns: repeat(3, 1fr);
+   gap: 16px;
+    justify-content: center; /* Center the grid horizontally */
+    margin: 0 450px; /* Add equal margin on both sides */
+  }
+  
+  .product-box {
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: center;
+    background-color: #d1c299;
+    position: relative;
+    max-width: 300px;
+    width: 300px; /* Set a small width for each box */
+    height: 300px; /* Set a small height for each box */
+  }
+  
+  .product-box p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center; /* Center the pagination */
+    margin-top: 100px;
+  }
+
+
+  .product-image {
+    margin-top: 30px;
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .product-details {
+    text-align: left;
+    background-color: black; /* Set the background color for the details area */  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Set the background color as needed */
+    color: #fff; /* Set the text color as needed */
+    padding: 10px; /* Adjust padding as needed for spacing within the details box */
+    box-sizing: border-box; 
+  
+  
+  
+  }
+
+.product-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-top: 7px;
+  
+  color: white;
+}
+.product-description {
+  font-size: 14px;
+  margin-top: 1px;
+  color: #555; /* Set the color as needed */
+  margin-bottom: 10px;
+}
+
+  
+
+
+
+
+
+
+  /* { "id": 10, "name": "Polo", "category": "T-Shirts", "src": "./img/green tshirt.png","description": "See more about this item", "price": 25.99 },
+  { "id": 11, "name": "Product 11", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 },
+  { "id": 12, "name": "Product 12", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 },
+  { "id": 13, "name": "Product 13", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 },
+  { "id": 14, "name": "Product 14", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 },
+  { "id": 15, "name": "Product 15", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 },
+  { "id": 16, "name": "Product 16", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 },
+  { "id": 17, "name": "Product 17", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 },
+  { "id": 18, "name": "Product 18", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 },
+  { "id": 19, "name": "Product 19", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 },
+  { "id": 20, "name": "Product 19", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 },
+  { "id": 21, "name": "Product 19", "category": "Sweaters", "image": "product2.jpg","description": "See more about this item", "price": 25.99 } */

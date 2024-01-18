@@ -1,0 +1,98 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/soft design.svg",
+      "title": "Software Design",
+      "animation": "design",
+      "description": "UX/UI, UX Research, Wireframes, Design System Creation, Design Mockups, Design Prototypes, Animations Using Figma."
+    },
+    {
+      "id": "2",
+      "src": "./img/development.svg",
+      "title": "Software Development",
+      "animation": "development",
+      "description": "Cross Platform Apps, Software for iOS, Android and Web, Full Stack Development, Mobile Development, Web App Development."
+    }
+   
+  ],
+
+
+  "core": [
+    {
+      "id": "1",
+      "src": "./img/creativity.svg",
+      "title": "Creativity",
+      "animation": "creativity",
+      "description": "I strive to solve problems with creativity, While trying nd experiencing new things that allow my mind to create new connections that ultimately benefit the growth of your company"
+    },
+    {
+      "id": "2",
+      "src": "./img/teamwork.svg",
+      "title": "Teamwork",
+      "animation": "teamwork",
+      "description": "I collaborate efficiently on teams,always offering effective communication,I enjoying learning from and mentoring othersbelieving tht the thoughtful excahnge of ideas in converations helps people become better and make your businesses more successful."
+    },
+    {
+      "id": "3",
+      "src":"./img/innovation.svg",
+      "title": "Innovation",
+      "animation": "innovation",
+      "description": "I push to always find inspiration so I can crete innovative solutions to interesting problems, thinking outside of the IDE and Design Software to discover vital and pivotl details that make your ideas a one-of-a-kind product."
+    },
+    {
+      "id": "4",
+      "src": "./img/quality.svg",
+      "title": "Quality",
+      "animation": "quality",
+      "description": "I aim to offer the best services for all clients, I will only deliver work that I am proud of that exceeds all quality metrics.Rest assured that when you work with ME you will receive the best."
+    },
+    {
+      "id": "5",
+      "src": "./img/integrity.svg",
+      "title": "Intergrity",
+      "animation": "intergrity",
+      "description": "I work hard to show my genuine nature, personally believing that honesty,trust and integrity are the backbone of a successful relationship whether it be personal or professional."
+    },
+    {
+      "id": "6",
+      "src": "./img/experience.svg",
+      "title": "Experience",
+      "animation": "experience",
+      "description": "I pride myself on offering top of the line client support.It is not just about the quality of the service but also about the experience while the service is being rendered.If you can not reach me still message me and my assistant will help you and I will address your concerns once I become available."
+    }
+   
+   
+  ],
+
+  "client": [
+    {
+      "id": "1",
+      "src": "./img/p2.jpeg",
+      "title": "Esther Howard",
+      "position": "CEO",
+      "company": "company name",
+      "description": "UX/UI, UX Research, Wireframes, Design System Creation, Design Mockups, Design Prototypes, Animations Using Figma."
+    },
+    {
+      "id": "2",
+      "src": "./img/p1.jpeg",
+      "title": "Esther Howard",
+      "position": "CEO",
+      "company": "company name",
+      "description": "Cross Platform Apps, Software for iOS, Android and Web, Full Stack Development, Mobile Development, Web App Development."
+    },
+    {
+      "id": "3",
+      "src": "./img/p3.jpeg",
+      "title": "Esther Howard",
+      "position": "CEO",
+      "company": "company name",
+      "description": "Cross Platform Apps, Software for iOS, Android and Web, Full Stack Development, Mobile Development, Web App Development."
+    }
+   
+  ]
+
+
+
+}

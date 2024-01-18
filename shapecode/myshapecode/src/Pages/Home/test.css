@@ -1,0 +1,527 @@
+
+
+/* About Us */
+.about--section {
+ 
+    grid-template-columns: repeat(2, 1fr);
+  
+      background: #2b2622;
+    display: flex;
+    padding: 149.33px 85.33px;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    gap: 16.667px;
+  
+  }
+  
+  
+  .portfolio-about-container {
+    text-align: center;
+  }
+  
+  .about-title{
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 77px;
+  margin-bottom: 10px; 
+  text-align: center!important;
+  position: relative;
+  overflow: hidden; /* Hide overflowing content */
+  
+  
+  }
+  
+  .about-text {
+  background: linear-gradient(265deg, rgba(244, 210, 145, 1) 0%, rgba(160, 118, 50, 1) 53%);
+  max-width: max-content;
+  padding: 3px 10px;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: center !important;
+  display: inline-block; /* Make it an inline block to use text-align */
+  white-space: nowrap; /* Prevent line breaks */
+  animation: slideInFromLeft 2s ease-in-out forwards; /* Animation properties */
+  opacity: 0; /* Initially set opacity to 0 */
+  }
+  
+  @keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%); /* Start position outside the left edge */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); /* End position at the original position */
+    opacity: 1;
+  }
+  }
+  
+  
+  
+  .about--section--para {
+  color: gray;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  }
+  
+  @media (max-width: 767px) {
+    .about-title {
+      font-size: 40px; /* Adjust the font size for mobile screens */
+      line-height: 50px; /* Adjust the line height for mobile screens */
+    }
+  
+    .about-text {
+      font-size: 40px; /* Adjust the font size for mobile screens */
+      line-height: 50px; /* Adjust the line height for mobile screens */
+    }
+  
+    .about--section--para {
+      font-size: 16px; /* Adjust the font size for mobile screens */
+      line-height: 24px; /* Adjust the line height for mobile screens */
+      text-align: center; /* Center the text within the paragraph */
+      max-width: 400px; /* Set a maximum width for better readability */
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+  }
+  
+  .col-one {
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: flex;
+  color: #ccc;
+  
+    justify-content: space-between;
+  }
+  /* !important */
+  .columns-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .column-left,
+  .column-right {
+    width: 430px; /* Adjust the width and margin as needed */
+    padding: 20px;
+    background: #2b2622;
+    
+    border-radius: 8px; /* Optional: Add rounded corners */
+     
+  }
+  
+  .column-left {
+    margin-right: 20px; /* Margin to separate the columns */
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .about--section {
+      padding: 50px 20px; /* Adjust padding for responsiveness */
+    }
+  
+    .columns-container {
+      flex-direction: column; /* Stack columns on smaller screens */
+      align-items: center;
+    }
+  
+    .column-left {
+      margin-right: 0; /* Remove right margin for smaller screens */
+    }
+    .column-right {
+      margin-left: 0; /* Remove right margin for smaller screens */
+      margin-top: 10px;
+    }
+  }
+  
+  .boxes-container {
+    display: flex;
+    gap: 20px; 
+    align-items: center;
+    justify-content: center;
+  
+  
+  
+   
+  }
+  .box-l {
+    margin-right: 200px;
+    margin-top: 10px;
+    height: 100px!important; /* Adjust the height as needed */
+    width: 450px!important; /* Adjust the width as needed */
+    background: #474641;
+    margin-bottom: 10px; /* Adjust the margin between boxes */
+    border-radius: 1rem;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .box-l:hover {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+  }
+  
+  .box {
+    margin-top: 10px;
+    height: 100px; /* Adjust the height as needed */
+    width: 450px; /* Adjust the width as needed */
+    background: #474641;
+    margin-bottom: 10px; /* Adjust the margin between boxes */
+    border-radius: 1rem;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+  }
+  .box-heading{
+    color: whitesmoke;
+  margin-left: -80px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .box-heading-l{
+    color: whitesmoke;
+  
+    margin-top: 5px;
+    font-size: 13px!important;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .box-heading-ai{
+    color: whitesmoke;
+  margin-left: 30px;
+    margin-top: 5px;
+    font-size: 15px!important;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  
+  .progress-container {
+    position: relative;
+  }
+  
+  
+  
+
+  .pro-f {
+    appearance: none;
+    height: 7px;
+    width: 70%;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 8px;
+    left: 0;
+    top: 6px; /* Adjust the top position as needed */
+    transform: translate(0, -50%);
+    animation: progressBarAnimation 2s ease-in-out forwards;
+  
+  }
+  
+  
+  
+  
+  
+  @keyframes progressBarAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%;
+    }
+  }
+  
+  
+  
+  
+  .pro-f::-webkit-progress-bar {
+  background-color: #ccc;
+    border-radius: 10px; /* Match the border radius of the progress bar */
+  
+  }
+  
+  .pro-f::-webkit-progress-value {
+    background: linear-gradient(265deg, rgba(244, 210, 145, 1) 0%, rgba(160, 118, 50, 1) 53%);
+    border-radius: 10px; /* Match the border radius of the progress bar */
+   
+  }
+  
+  
+ 
+  
+  .progress-text {
+    position: absolute;
+    font-size: 13.5px;
+    margin-top: 8px;
+    left: 85%;
+    font-weight: 300;
+    transform: translate(-50%, -50%);
+    color: white; /* Change the color of the progress value */
+  }
+
+  .circle-container {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 50px;
+    margin-left: 10px;
+  
+  
+  }
+  .circle-image {
+    width: 40px; /* Original width of the image */
+    height: 90px; /* Original height of the image */
+    border-radius: 50%; /* Make the image round */
+    margin-top: 20px;
+    margin-right: 10px; /* Adjust the margin to space the text from the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  .text-after-circle {
+    margin-left: -10px; /* Adjust the margin to space the text from the circle */
+    font-size: 15px; /* Adjust the font size of the text */
+    margin-top: 20px;
+    color: white;
+  
+  }
+  .a-one{
+    margin-left: 4px; /* Adjust the margin to space the text from the circle */
+    font-size: 13px; /* Adjust the font size of the text */
+    margin-top: 20px;
+    background: linear-gradient(265deg, rgba(244, 210, 145, 1) 0%, rgba(160, 118, 50, 1) 53%);
+    max-width: max-content;
+    padding: 3px 10px;
+    color: white;
+    text-align: center !important;
+    display: inline-block; /* Make it an inline block to use text-align */
+  
+  }
+  .circle-app-container {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+    margin-left: -1px;
+   
+    
+  }
+  .circle-app-image {
+    width: 70px; /* Original width of the image */
+    height: 39px; /* Original height of the image */
+    border-radius: 50%; /* Make the image round */
+    margin-top: 20px;
+    margin-right:-50px; /* Adjust the margin to space the text from the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  .text-after-app-circle {
+    margin-left: 32px; /* Adjust the margin to space the text from the circle */
+    font-size: 15px; /* Adjust the font size of the text */
+    margin-top: 20px;
+    color: white;
+  
+  }
+  
+  .circle-ai-container {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+    margin-left: 10px;
+    
+   
+    
+  }
+  .circle-ai-image {
+    width: 70px; /* Original width of the image */
+    height: 39px; /* Original height of the image */
+    border-radius: 50%; /* Make the image round */
+    margin-top: 20px;
+    margin-right:-49px; /* Adjust the margin to space the text from the image */
+    object-fit: cover;
+  }
+  
+  .text-after-ai-circle {
+    margin-left: 50px; /* Adjust the margin to space the text from the circle */
+    font-size: 15px; /* Adjust the font size of the text */
+    margin-top: 20px;
+    color: white;
+  
+  
+  }
+  
+  .circle-aws-container {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+    margin-left: -1px;
+    
+  }
+  .circle-aws-image {
+    width: 70px; /* Original width of the image */
+    height: 39px; /* Original height of the image */
+    border-radius: 50%; /* Make the image round */
+    margin-top: 20px;
+    margin-right:-50px; /* Adjust the margin to space the text from the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  .text-after-aws-circle {
+    margin-left: 40px; /* Adjust the margin to space the text from the circle */
+    font-size: 15px; /* Adjust the font size of the text */
+    margin-top: 20px;
+    color: white;
+  
+  }
+  .circle-shopify-container {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+    margin-left: -1px;
+    
+  }
+  .circle-shopify-image {
+    width: 70px; /* Original width of the image */
+    height: 39px; /* Original height of the image */
+    border-radius: 50%; /* Make the image round */
+    margin-top: 20px;
+    margin-right:-60px; /* Adjust the margin to space the text from the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  .text-after-shopify-circle {
+    margin-left: 40px; /* Adjust the margin to space the text from the circle */
+    font-size: 15px; /* Adjust the font size of the text */
+    margin-top: 20px;
+    color: white;
+  
+  }
+  .circle-flow-container {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    margin-left: -1px;
+    
+  }
+  .circle-flow-image {
+    width: 70px; /* Original width of the image */
+    height: 60px; /* Original height of the image */
+    border-radius: 50%; /* Make the image round */
+    margin-top: 6px;
+    margin-right:-50px; /* Adjust the margin to space the text from the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  .text-after-flow-circle {
+    margin-left: 30px; /* Adjust the margin to space the text from the circle */
+    font-size: 15px; /* Adjust the font size of the text */
+    margin-top: 2px;
+    color: white;
+  
+  }
+  .a-flow-one{
+    margin-left: 10px; /* Adjust the margin to space the text from the circle */
+    font-size: 13px; /* Adjust the font size of the text */
+    margin-top: 2px;
+    background: linear-gradient(265deg, rgba(244, 210, 145, 1) 0%, rgba(160, 118, 50, 1) 53%);
+    max-width: max-content;
+    padding: 3px 10px;
+    color: white;
+    text-align: center !important;
+    display: inline-block; /* Make it an inline block to use text-align */
+  
+  }
+  
+  .circle-dart-container {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 100px;
+    margin-left: -1px;
+  
+    
+  }
+  .circle-dart-image {
+    width: 100%; /* Original width of the image */
+    height: 300%; /* Original height of the image */
+    border-radius: 50%; /* Make the image round */
+    margin-top: -30px;
+    margin-left:-11px; /* Adjust the margin to space the text from the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  .text-after-dart-circle {
+    margin-left: -10px; /* Adjust the margin to space the text from the circle */
+    font-size: 15px; /* Adjust the font size of the text */
+    margin-top: -20px;
+    color: white;
+  
+  }
+  .a-dart-one{
+    margin-left: 1px; /* Adjust the margin to space the text from the circle */
+    font-size: 13px; /* Adjust the font size of the text */
+    margin-top: -20px;
+    background: linear-gradient(265deg, rgba(244, 210, 145, 1) 0%, rgba(160, 118, 50, 1) 53%);
+    max-width: max-content;
+    padding: 3px 10px;
+    color: white;
+    text-align: center !important;
+    display: inline-block; /* Make it an inline block to use text-align */
+  
+  }
+  
+  
+  /* colum right starts */
+  .column-right {
+    margin-left: 20px; /* Margin to separate the columns */
+  }
+  /* Media Query for Mobile */
+  @media (max-width: 767px) {
+    .columns-container {
+      flex-direction: column; /* Stack columns on smaller screens */
+      align-items: center;
+    }
+  
+    .column-left,
+    .column-right {
+      width: 100%; /* Make columns take full width on mobile screens */
+      margin: 0; /* Remove margin to avoid spacing issues on mobile */
+    }
+  
+    .boxes-container {
+      flex-direction: column; /* Arrange boxes in a single column on mobile */
+    }
+  
+    .box
+     {
+      width: 100%; /* Make boxes take full width on mobile screens */
+    }
+    .box-l {
+      width: 100%!important; /* Make boxes take full width on mobile screens */
+      margin-right: 10px;
+    }
+  }
+  
+  
+  
+  /* About Us Ends */
+  
+  

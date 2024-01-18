@@ -1,0 +1,145 @@
+
+/* serve Section Style */
+.serve--section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5% 10%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    background: #2C2B2B;
+  }
+  
+  .serve--section--content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  
+  .serve--section--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21.333px;
+  }
+  
+  .serve--section--content--box > button {
+    margin-top: 21.333px;
+  }
+  
+  .serve--title {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    background-clip: text; /* Clip the background to the text */
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent; /* Set text color to transparent */
+    background-image: linear-gradient(265deg, rgba(183, 151, 102, 1) 12%, rgba(141, 97, 29, 1) 63%);
+    -webkit-text-fill-color: transparent; /* For Safari */
+  }
+  
+  .serve--section--title {
+    color: #FFFFFF;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 53.23px;
+    align-self: stretch;
+    font-family: 'Nunito', sans-serif;
+
+    
+  }
+  
+
+  .serve--ambition-description {
+    color: #EEEEEE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .serve--section--img {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .last-image {
+    height: 85%!important;
+    width: 85%;
+    margin-top:-50px; /* Adjust as needed */
+    margin-left: -10px;
+  }
+
+  .your-button-class {
+    margin-top: 21.333px;
+    padding: 12px 24px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(265deg, rgba(244,210,145,1) 0%, rgba(160,118,50,1) 53%);
+  line-height: 15.41px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    max-width: 100%;
+    text-decoration: none;
+  }
+  @media (min-width: 1023px){
+    
+  }
+  /* Add a new CSS rule for mobile screens */
+  @media screen and (max-width: 768px) {
+    .serve--section {
+      grid-template-columns: 1fr;
+      padding: 5% 5%;
+    }
+  
+    .serve--section--img {
+      order: 1; /* Change the order for mobile screens */
+    }
+  
+    .last-image {
+      width: 100%; /* Adjust the width as needed */
+      max-width: 450px; /* Set a maximum width if necessary */
+      height: auto; /* Maintain aspect ratio */
+      margin-top: 1rem; /* Adjust as needed */
+    }
+  
+    .hori-con,
+    .v-con {
+      margin-top: 0;
+      margin-left: 0;
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .serve--section--title {
+      font-size: 30px;
+      line-height: 36px;
+    }
+   
+    .serve--ambition-description {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .serve--section--img {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .last-image {
+      height: 85%!important;
+      width: 85%;
+      margin-top:-50px; /* Adjust as needed */
+      margin-left: -10px;
+    }
+  
+  }

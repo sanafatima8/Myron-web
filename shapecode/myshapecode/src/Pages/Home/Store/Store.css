@@ -1,0 +1,188 @@
+/* Global CSS */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: "Roboto", sans-serif;
+  -moz-osx-font-smoothing: "Roboto", sans-serif;
+  font-style: normal;
+  overflow-x: hidden !important;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+:root {
+  --primary: #5e3bee;
+  --heading-color: #282938;
+  --bg-shade: #f5fcff;
+  --github: #e62872;
+  --darkblue: #1c1e53;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+/* Hero Section Style */
+.store--section {
+  padding: 133.333px 0; /* Adjust padding and remove left/right padding */
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  background: #2b2622;
+  width: 100%; /* Set width to 100% */
+}
+
+
+
+.portfolio-container {
+    text-align: center;
+}
+
+.store-title{
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 77px;
+  margin-bottom: 10px; 
+  text-align: center!important;
+  position: relative;
+  overflow: hidden; /* Hide overflowing content */
+ 
+
+
+}
+
+.store-text {
+  background: linear-gradient(265deg, rgba(244, 210, 145, 1) 0%, rgba(160, 118, 50, 1) 53%);
+  max-width: max-content;
+  padding: 3px 10px;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: center !important;
+  display: inline-block; /* Make it an inline block to use text-align */
+  white-space: nowrap; /* Prevent line breaks */
+  animation: slideInFromLeft 2s ease-in-out forwards; /* Animation properties */
+  opacity: 0; /* Initially set opacity to 0 */
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%); /* Start position outside the left edge */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); /* End position at the original position */
+    opacity: 1;
+  }
+}
+
+
+
+.store--section--para {
+  color: gray;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.store-nav {
+  background-color: #2b2622;
+  padding: 20px 15px; /* Adjust the padding for smaller screens */
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+}
+
+.store-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center; /* Center items on smaller screens */
+  gap: 20px; /* Adjust the gap between items for smaller screens */
+}
+
+.store-items > ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  gap: 20px; /* Adjust the gap between items for smaller screens */
+}
+
+.store-items ul > li > a {
+  text-decoration: none;
+}
+
+.filter-button {
+  color: white;
+  background-color: #000000;
+  width: 80%; /* Make the button take full width */
+  border-radius: 1rem;
+  text-decoration: none;
+  border: none;
+  margin-top: 10px; /* Add some top margin for spacing */
+  margin-left: 100px; /* Add left margin */
+}
+
+
+.fa-filter {
+  margin-left: 10px;
+}
+
+.nav-content {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  transition: background-color 0.3s, border-color 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-content:hover {
+  color: goldenrod;
+  font-size: 16px;
+  font-style: normal;
+  background-color: #000000;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  border-color: goldenrod;
+}
+
+/* Media Query for screens with a maximum width of 768 pixels (adjust as needed) */
+@media only screen and (max-width: 768px) {
+  .store-nav {
+    padding: 20px 10px; /* Adjust the padding for smaller screens */
+  }
+
+  .store-nav ul {
+    gap: 10px; /* Adjust the gap between items for smaller screens */
+  }
+
+  .store-items ul > li > a {
+    padding: 8px; /* Adjust the padding for smaller screens */
+  }
+}
