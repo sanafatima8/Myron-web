@@ -259,6 +259,8 @@ background-color: pink;
     width: 100%;
     height: auto; /* Set height to auto for better responsiveness */
     margin-top: 50px; /* Adjust margin-top for smaller screens */
+    margin-bottom: 20px;
+
   }
 
   .study-story-content {

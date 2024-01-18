@@ -176,7 +176,8 @@
   .vertical-timeline-element-content {
     position: relative;
     margin-left: 60px;
-    background: #2b2622;
+    /* background: #2b2622; */
+    background:#333333;
     /* width: 200px!important; */
     padding: 1em;
    
