@@ -253,33 +253,41 @@ background-color: pink;
 }
 
 /* New styles for small screens */
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .study-story,
   .study-story-content {
-    width: 100%;
-    height: auto; /* Set height to auto for better responsiveness */
-    margin-top: 50px; /* Adjust margin-top for smaller screens */
+    width: 150%;
+    height: auto; 
+    margin-top: 50px; 
     margin-bottom: 20px;
+     margin-left: -50px;
+    padding: 20px;
+    box-sizing: border-box;
+   
 
   }
 
   .study-story-content {
-    padding: 20px; /* Add padding for space on both sides */
-    box-sizing: border-box; /* Include padding in the width calculation */
+    padding: 70px; 
+    box-sizing: border-box; 
+    align-items: center;
+    margin-left: -60px;
   }
 
   .story-title {
     line-height: 28px;
-    font-size: 21px !important;
+    font-size: 20px !important;
     font-weight: 400 !important;
   }
 
   .story-para {
     margin-top: 5px;
-    font-size: 14px !important; /* Adjust font size for small screens */
-    line-height: 24px; /* Adjust line height for better readability */
+    font-size: 14px !important; 
+    line-height: 24px; 
   }
-}
+} */
+
+
 
 @media (min-width: 1025px) and (max-width: 1280px){
  
@@ -403,12 +411,47 @@ background-color: pink;
           font-size: 14px;
           line-height: 24px;
         }
+        .study-story,
+        .study-story-content {
+          width: 160%; /* Adjust the width as needed */
+          height: auto;
+          margin-top: 50px;
+          margin-bottom: 20px;
+       margin-right: 0;
+       margin-left: 0;
+    
+          padding: 20px;
+          box-sizing: border-box;
+         
+      
+        }
+      
+        .study-story-content {
+          padding: 100px; /* Add padding for space on both sides */
+          box-sizing: border-box; /* Include padding in the width calculation */
+           align-items: center;
+           margin-left: -110px;
+margin-right: 0px;          
+        }
+      
+        .story-title {
+          line-height: 28px;
+          font-size: 21px !important;
+          font-weight: 400 !important;
+          margin-left: 0px;
+          margin-right: 0px;  
+        }
+      
+        .story-para {
+          margin-top: 5px;
+          margin-left: -20px;
+          font-size: 14px !important; /* Adjust font size for small screens */
+          line-height: 24px; /* Adjust line height for better readability */
+          margin-left: 0px;
+          margin-right: 0px;  
+        }
     
       }
-
-
-
-
 
 
 

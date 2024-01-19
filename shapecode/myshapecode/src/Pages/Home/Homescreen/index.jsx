@@ -17,8 +17,8 @@ export default function Home() {
     <>
      <Loadingpage />
       <HeroSection />
-      <Study/>
       <Work/>
+      <Study/>
       <MySkills />
       <AboutMe />
     

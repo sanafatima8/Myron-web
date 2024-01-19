@@ -228,9 +228,31 @@
 
 
 
-  @media (max-width: 768px) {
-    /* Adjust the breakpoint as needed */
+  @media only screen and (max-width: 600px) {
+    .contact--section {
+      text-align: left;
+      align-items: flex-start; /* Align items to the start */
+      padding: 40px; /* Adjust padding for better spacing */
+    }
   
+    .contact-title {
+      display: none;
+    }
+  
+    .contact--section--para {
+      display: none;
+    }
+  
+    .col-title {
+      font-size: 28px;
+      line-height: 44px;
+      text-align: left;
+      white-space: normal;
+    }
+    .talk-sp{
+      font-size: 28px;
+      line-height: 44px;
+    }
     .two-columns {
       flex-direction: column; /* Change to column for mobile */
     }

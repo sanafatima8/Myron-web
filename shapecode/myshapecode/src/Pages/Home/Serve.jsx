@@ -38,8 +38,8 @@ export default function Work() {
         
             <p className="serve--ambition-description">
             I want to thank you for spending time on my portfolio site, I truly
-            <br />hope it is clear to you now that I am the right fit fotr your company.
-            <br />Cheers to the success of your business!
+            hope it is clear to you now that I am the right fit fotr your company.
+            Cheers to the success of your business!
             </p>
             <a href="your-link-url" className="your-button-class">EXPLORE MY WORKS</a>
             

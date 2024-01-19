@@ -595,7 +595,7 @@
 
     .client-title {
       font-size: 26px;
-      margin-left: -90px!important;
+      margin-left: -120px!important;
      
     }
     .client-position,
@@ -605,7 +605,7 @@
       font-weight: 400;
       line-height: 18.52px;
       margin-top: 5px;
-      margin-left: -90px!important;
+      margin-left: -120px!important;
     }
  
     
@@ -626,15 +626,15 @@
     .client-description {
       font-size: 14px;
       line-height: 20px;
-      width: 50%;
+      width: 60%;
       align-items: center;
-      margin-left: 80px;
+      margin-left: 40px;
     }
   
     
     .client--section--img {
       width: 45%!important; /* Set the width to 100% for mobile screens */
-      margin-left: 100px!important;
+      margin-left: 80px!important;
       max-width: none; /* Remove the max-width for mobile screens */
       height: 240px!important; /* Automatically adjust the height to maintain aspect ratio */
     }

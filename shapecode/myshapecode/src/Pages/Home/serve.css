@@ -124,8 +124,13 @@
     }
    
     .serve--ambition-description {
-      font-size: 14px;
-      line-height: 24px;
+      font-size: 15px;
+      line-height: 20px;
+      width: 100%;
+     white-space: normal;
+     margin-left: 0;
+     margin-right: 0;
+     float: left;
     }
 
     .serve--section--img {
